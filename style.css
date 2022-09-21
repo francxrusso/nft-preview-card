@@ -165,6 +165,10 @@ h1 {
 	margin: 1.5rem 0rem;
 }
 
+h1:hover {
+	color: hsl(178, 100%, 50%);
+}
+
 p {
 	font-weight: 300;
 	color: hsl(215, 51%, 70%);
@@ -210,6 +214,10 @@ hr {
 
 .name {
 	color: white;
+}
+
+.name:hover{
+color: hsl(178, 100%, 50%);
 }
 
 .author {

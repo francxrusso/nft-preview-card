@@ -1,0 +1,230 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+/*CSS RESET*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol,
+ul {
+	list-style: none;
+}
+
+blockquote,
+q {
+	quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/*my code*/
+body {
+	background-color: hsl(217, 54%, 11%);
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	font-family: 'Outfit';
+}
+
+.card {
+	background-color: hsl(216, 50%, 16%);
+	border-radius: 0.6rem;
+	padding: 1.6rem;
+	max-width: 18rem;
+}
+
+.nft-image {
+	border-radius: 0.6rem;
+	display: block;
+	width: 100%;
+	object-fit: contain;
+}
+
+h1 {
+	color: white;
+	font-weight: 600;
+	font-size: 1.3rem;
+	margin: 1.5rem 0rem;
+}
+
+p {
+	font-weight: 300;
+	color: hsl(215, 51%, 70%);
+}
+
+.card>p {
+	line-height: 1.5;
+	margin: 0rem 1rem 1rem 0rem;
+	font-size: 1rem;
+}
+
+.eth-clock-wrapper {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+h2 {
+	color: hsl(178, 100%, 50%);
+	font-weight: 400;
+}
+
+h3 {
+	color: hsl(215, 51%, 70%);
+	font-weight: 400;
+}
+
+h2>img {
+	padding: 0rem 0.3rem 0rem 0rem;
+	align-self: center;
+}
+
+h3>img {
+	padding: 0rem 0.3rem 0rem 0rem;
+	align-self: center;
+}
+
+hr {
+	border: 0.25px solid hsl(215, 51%, 70%);
+	opacity: 20%;
+	margin: 0.6rem 0rem;
+}
+
+.name {
+	color: white;
+}
+
+.author {
+	display: flex;
+	flex-direction: row;
+}
+
+.author>p {
+	margin: 1.1rem 0.6rem 0rem 0rem;
+}
+
+.author-avatar {
+	width: 30px;
+	height: 30px;
+	margin: 0.6rem 0.6rem 0rem 0rem;
+	border-radius: 50%;
+	border: 1px solid white;
+}
